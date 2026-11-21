@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ขอบคุณ — Body Scent</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .thanks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 77px);
+      min-height: calc(100svh - 77px);
+      padding: var(--space-6) 0;
+      text-align: center;
+    }
+
+    .thanks__mark {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      margin: 0 auto var(--space-3);
+      border: 1px solid var(--color-accent);
+      border-radius: 50%;
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      color: var(--color-accent-dark);
+    }
+
+    .thanks p {
+      max-width: 30rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Body Scent</a>
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="thanks">
+      <div class="container">
+        <div class="thanks__mark" aria-hidden="true">&#10003;</div>
+        <span class="eyebrow">Thank you</span>
+        <h1>ขอบคุณที่สั่งซื้อ</h1>
+        <hr class="divider">
+        <p class="lead">เราได้รับคำสั่งซื้อของคุณแล้ว ทางร้านจะติดต่อกลับเพื่อยืนยันโดยเร็วที่สุด</p>
+        <a class="btn mt-4" href="index.html">กลับหน้าแรก</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="index.html">Body Scent</a>
+      <p>&copy; Body Scent. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
